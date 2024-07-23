@@ -5,7 +5,7 @@ import pytorch from "./images/pytorch.png"
 import tensorflow from "./images/tensorflow.png"
 import cpp from "./images/cpp.png"
 import html from "./images/html.png"
-import sql from "./images/sql.png"
+// import sql from "./images/sql.png"
 const Experience = () => {
     const experiences = [
         
