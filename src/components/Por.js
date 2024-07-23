@@ -5,10 +5,10 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import "../styles.css";
 import "./swiperStyle.css";
-import google from "./images/google.png";
-import iitj from "./images/iitj.jpg";
-import cdc from "./images/cdc.png";
-import raid from "./images/raid.jpg";
+import mlschool from "./images/mlschool.png";
+import kvpy from "./images/KVPY.jpeg";
+import swc from "./images/swc.png";
+import ignus from "./images/ignus.png";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 const Por = () => {
   const [slide, setSlide] = useState(3);
@@ -49,11 +49,11 @@ const Por = () => {
           <>
             <SwiperSlide style={styles}>
               <div className="swiper-client-msg">
-                <p className="w-full">Internship Coordinator , CDC , IITJ</p>
+                <p className="w-full">Student Guide, SWC, IITJ</p>
               </div>
               <div className="img-container">
                 <img
-                  src={cdc}
+                  src={swc}
                   className="shadow-md hover:scale-105 duration-200 shadow-gray-600"
                   alt=""
                 />
@@ -62,12 +62,12 @@ const Por = () => {
             <SwiperSlide style={styles}>
               <div className="swiper-client-msg">
                 <p className="w-full">
-                  Core Member and Mentor , RAID , IITJ 2024
+                  Assitant Head, Ignus, IITJ 
                 </p>
               </div>
               <div className="img-container">
                 <img
-                  src={raid}
+                  src={ignus}
                   className="shadow-md hover:scale-105 duration-200 shadow-gray-600"
                   alt=""
                 />
@@ -75,79 +75,32 @@ const Por = () => {
             </SwiperSlide>
           </>
         }
-        {/* <SwiperSlide style={styles}>
-            <div className='swiper-client-msg shadow-md shadow-gray-600'>
-                <p>
-                Head, INAE-SERB Youth Conclave 2022, IIT Jodhpur
-                </p>
-            </div>
-            <div className='img-container'>
-              <img src={youth} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
-            </div>
-        </SwiperSlide> */}
-        {/* <SwiperSlide style={styles}>
-            <div className='swiper-client-msg shadow-md shadow-gray-600'>
-                <p>
-                Overall Coordinator, Society of Alumni Affairs, IIT Jodhpur
-                </p>
-            </div>
-            <div className='img-container'>
-              <img src={saa} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
-            </div>
-        </SwiperSlide> */}
+        
         {
           <SwiperSlide style={styles}>
             <div className="swiper-client-msg shadow-md shadow-gray-600">
-              <p>Core Member, Google Developer Students Club</p>
+              <p>Selected for Amazon ML Summer School '24</p>
             </div>
             <div className="img-container">
               <img
-                src={google}
+                src={mlschool}
                 className="shadow-md hover:scale-105 duration-200 shadow-gray-600"
                 alt=""
               />
             </div>
           </SwiperSlide>
         }
-        {/* <SwiperSlide style={styles}>
-            <div className='swiper-client-msg shadow-md shadow-gray-600'>
-                <p>
-                Society Executive, Computer Science Society IIT Jodhpur
-                </p>
-            </div>
-            <div className='img-container'>
-              <img src={cse} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
-            </div>
-        </SwiperSlide> */}
-        {/* <SwiperSlide style={styles}>
-            <div className='swiper-client-msg shadow-md shadow-gray-600'>
-                <p>
-                Student Guide, Student Wellbeing Committee, IIT Jodhpur
-                </p>
-            </div>
-            <div className='img-container'>
-              <img src={swc} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
-            </div>
-        </SwiperSlide> */}
+        
+        
 
-        {/* <SwiperSlide style={styles}>
-            <div className='swiper-client-msg shadow-md shadow-gray-600'>
-                <p>
-                Awarded with Certificate of Excellence for serving as the Overall Head in the Board of Innovation and
-                Entrepreneurship
-                </p>
-            </div>
-            <div className='img-container'>
-              <img src={bie} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
-            </div>
-        </SwiperSlide> */}
+        
         <SwiperSlide style={styles}>
           <div className="swiper-client-msg shadow-md shadow-gray-600">
-            <p>99.18 Percentile in JEE Mains 2022 Examinations</p>
+            <p>Secured AIR 297 in KVPY SA</p>
           </div>
           <div className="img-container">
             <img
-              src={iitj}
+              src={kvpy}
               className="shadow-md  hover:scale-105 duration-200 shadow-gray-600"
               alt=""
             />

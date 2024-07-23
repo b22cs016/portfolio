@@ -23,12 +23,12 @@ const Experience = () => {
             style:'shadow-blue-500'
          },
          
-         {
-            id:3,
-            src:sql,
-            title:'MySQL',
-            style:'shadow-gray-600'
-         },
+         // {
+         //    id:3,
+         //    src:sql,
+         //    title:'MySQL',
+         //    style:'shadow-gray-600'
+         // },
          {
             id:4,
             src:pytorch,

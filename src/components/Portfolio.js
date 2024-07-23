@@ -1,27 +1,27 @@
 import React from "react";
-import covid from "./images/covid.png";
-import chatbot from "./images/chatbot.png";
-import healthcare from "./images/healthcare.png";
+import qiskit from "./images/test3.jpg";
+import dsa from "./images/dsa.png";
+import ml from "./images/ml.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: chatbot,
-      link: "https://github.com/shikhar5647/MLOps-AI-Agents",
-      title: "ML-Ops Agents and chatbots using Langchain and Autogen",
+      src: dsa,
+      link: "https://github.com/stars/b22cs016/lists/c-projects",
+      title: "Travel Desk for Fests and Phone Book Programs",
     },
     {
       id: 2,
-      src: healthcare,
-      link: "https://github.com/shikhar5647/healthcare_anamoly_detection",
-      title: "Healthcare Anamoly Detection Using Autoencoders.",
+      src: ml,
+      link: "https://github.com/b22cs016/prml_course_project_1v",
+      title: "Image Retrieval System",
     },
     {
       id: 3,
-      src: covid,
-      link: "https://github.com/shikhar5647/Covid-Detection-from-Chest-X-Ray",
-      title: "Covid 19 Detection Using Chest X-ray.",
+      src: qiskit,
+      link: "https://github.com/b22cs016/Freedman_Inequality",
+      title: "Freedman Inequality on Qiskit",
     },
   ];
 

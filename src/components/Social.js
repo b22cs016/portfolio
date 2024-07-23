@@ -9,7 +9,7 @@ const Social = () => {
         <ul className='w-1/2 mx-auto flex justify-stretch flex-row text-center md:mr-1 md:w-2/3'>
             <li className='flex justify-between items-center w-1/4 h-14 px-0.5
             bg-inherit hover:scale-105 duration-300'>
-                <a href="https://www.linkedin.com/in/shikhar-dave-400810258/" className='flex justify-between items-center w-full text-white' target="_blank" rel='noreferrer'> 
+                <a href="https://www.linkedin.com/in/siddhesh2507" className='flex justify-between items-center w-full text-white' target="_blank" rel='noreferrer'> 
                 <FaLinkedin size={50}/>
                
                 </a>
@@ -17,7 +17,7 @@ const Social = () => {
 
             <li className='flex justify-between items-center w-1/4 h-14 px-0.5
             bg-inherit  hover:scale-105 duration-300'>
-                <a href="https://github.com/shikhar5647" className='flex justify-between items-center w-full text-white' target="_blank" rel='noreferrer'> 
+                <a href="https://github.com/b22cs016" className='flex justify-between items-center w-full text-white' target="_blank" rel='noreferrer'> 
             
               <FaGithub size={50}/>
                 
@@ -26,7 +26,7 @@ const Social = () => {
 
             <li className='flex justify-between items-center w-1/4 h-14 px-0.5
             bg-inherit  hover:scale-105 duration-300'>
-                <a href="mailto:b22ch032@iitj.ac.in" className='flex justify-between items-center w-full text-white' target="_blank" rel='noreferrer'> 
+                <a href="mailto:b22cs016@iitj.ac.in" className='flex justify-between items-center w-full text-white' target="_blank" rel='noreferrer'> 
                 
                  <HiOutlineMail className="inline text-center" size={50}/>
                 
@@ -35,8 +35,8 @@ const Social = () => {
 
             <li className='flex justify-between items-center w-1/4 h-14 px-0.5
             bg-inherit  hover:scale-105 duration-300'>
-                <a href="/SD_Double_column.pdf" className='flex justify-between items-center w-full text-white' download={true} target="_blank"> 
-                
+                <a href="https://drive.google.com/file/d/1PulexAEzF0G0RrILyRG65ZJR-Y7AuoXn/view?usp=sharing"  className='flex justify-between items-center w-full text-white' download={true} target="_blank"> 
+          
                  <BsFillPersonLinesFill size={50}/>
                 
                 </a>
